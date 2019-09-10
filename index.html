@@ -15,7 +15,7 @@
         <h1>Semaine 1 : html&css TP Pomme</h1>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html"><img src="source/logo_blanc.png" id="logoApple" alt="logo apple"></a></li>
                 <li><a href="mac.html">Mac</a></li>
                 <li><a href="iPad.html">iPad</a></li>
                 <li><a href="iPhone.html">iPhone</a></li>
@@ -30,7 +30,7 @@
     </header>
     <article class="bigArticles">
         <a href="https://www.apple.com/fr/iphone-xr/">
-            <article class="b articleLink">
+            <article class="b articleLink"  id="iPhoneXr">
                 <h3>iPhone Xr</h3>
                 <p>Un design tout écran. La meilleure autonomie jamais vue sur un iPhone. Des performances
                     ultra-rapides. Et
@@ -59,40 +59,42 @@
             </article>
         </a>
     </article>
-    <article class="smallArticles">
-        <article class="s">
-            <h3>Évènement spécial Apple</h3>
-            <p>Regarder le keynote le 10 septembre à 19h sur le site Apple US.</p>
+    <div class="container">
+        <article class="smallArticles">
+            <article class="s articleLink">
+                <h3>Évènement spécial Apple</h3>
+                <p>Regarder le keynote le 10 septembre à 19h sur le site Apple US.</p>
+            </article>
+            <article class="s articleLink">
+                <h3>L'iPhone Xr à partir de 639€</h3>
+                <p>Il vous suffit de faire reprendre votre iPhone actuel en ligne ou dans un Apple Store*.</p>
+                <a href="iPhoneXr/cheap/more.html">En savoir plus ></a>
+                <a href="iPhoneXr/cheap.buy.html">Acheter ></a>
+            </article>
+            <article class="s articleLink">
+                <h3>Un Mac ou un iPad dans votre sac de cours, un Beats sur vos oreilles.</h3>
+                <a href="appleBeats/buy.html">Acheter ></a>
+            </article>
+            <article class="s articleLink">
+                <h3>AirPods</h3>
+                <p>La magie du sans-fil. Rien que pour vous. Avec gravure personalisée, exclusivement en ligne.</p>
+                <a href="airPods/more.html">En savoir plus ></a>
+                <a href="airPods/buy.html">Acheter ></a>
+            </article>
+            <article class="s articleLink">
+                <h3>Apple Arcade</h3>
+                <p>Des jeux qui changent les règles du jeu. Sur l'App Store dès cet automne.</p>
+                <a href="appleArcade/more.html">En savoir plus ></a>
+                <a href="appleArcade/subscribeToNewsletters.html">Me prévenir ></a>
+            </article>
+            <article class="s articleLink">
+                <h3>MacBook Pro</h3>
+                <p>Plus puissant. Plus performant. Plus pro.</p>
+                <a href="macBookPro/more.html">En savoir plus ></a>
+                <a href="macBookPro/buy.html">Acheter ></a>
+            </article>
         </article>
-        <article class="s">
-            <h3>L'iPhone Xr à partir de 639€</h3>
-            <p>Il vous suffit de faire reprendre votre iPhone actuel en ligne ou dans un Apple Store*.</p>
-            <a href="iPhoneXr/cheap/more.html">En savoir plus ></a>
-            <a href="iPhoneXr/cheap.buy.html">Acheter ></a>
-        </article>
-        <article class="s">
-            <h3>Un Mac ou un iPad dans votre sac de cours, un Beats sur vos oreilles.</h3>
-            <a href="appleBeats/buy.html">Acheter ></a>
-        </article>
-        <article class="s">
-            <h3>AirPods</h3>
-            <p>La magie du sans-fil. Rien que pour vous. Avec gravure personalisée, exclusivement en ligne.</p>
-            <a href="airPods/more.html">En savoir plus ></a>
-            <a href="airPods/buy.html">Acheter ></a>
-        </article>
-        <article class="s">
-            <h3>Apple Arcade</h3>
-            <p>Des jeux qui changent les règles du jeu. Sur l'App Store dès cet automne.</p>
-            <a href="appleArcade/more.html">En savoir plus ></a>
-            <a href="appleArcade/subscribeToNewsletters.html">Me prévenir ></a>
-        </article>
-        <article class="s">
-            <h3>MacBook Pro</h3>
-            <p>Plus puissant. Plus performant. Plus pro.</p>
-            <a href="macBookPro/more.html">En savoir plus ></a>
-            <a href="macBookPro/buy.html">Acheter ></a>
-        </article>
-    </article>
+    </div>
     <footer>
         <p>* Tarif de l’iPhone XR après reprise d’un iPhone 7 Plus 32 Go. Autres valeurs de crédit de reprise
             disponibles sous réserve de l’achat d’un nouvel iPhone (soumis à des conditions de disponibilité et à
@@ -189,16 +191,16 @@
                 agréé.</a>
             France
             Copyright © 2019 Apple Inc. Tous droits réservés. France</p>
-        <nav>
+        <div class="rights">
             <ul>
-                <li>Engagement et confidentialité</li>
-                <li>Utilisation des cookies</li>
-                <li>Conditions d'utilisation</li>
-                <li>Ventes et remboursements</li>
-                <li>Mentions légales</li>
-                <li>Plan du site</li>
+                <li><a href="">Engagement et confidentialité</a></li>
+                <li><a href="">Utilisation des cookies</a></li>
+                <li><a href="">Conditions d'utilisation</a></li>
+                <li><a href="">Ventes et remboursements</a></li>
+                <li><a href="">Mentions légales</a></li>
+                <li><a href="">Plan du site</a></li>
             </ul>
-        </nav>
+        </div>
     </footer>
 </body>
 

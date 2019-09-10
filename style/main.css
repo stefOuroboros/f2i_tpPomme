@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     color: black;
 }
 
@@ -9,6 +9,7 @@ body {
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 h1 {
@@ -76,13 +77,54 @@ article h3 {
 article {
     font-size: 21px;
     width: 75%;
+    height: 100vh;
     margin: auto;
     background-color: rgb(250 250 250);
 }
 
 .smallArticles {
     display: grid;
-    grid-template-areas: "articleS articleS" "articleS articleS";
-    /* grid-template-columns: 1 / 1;
- grid-template-rows: 1 /1;                       */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#iPhoneXr {
+    background-image: url("https://www.apple.com/v/home/el/images/heroes/iphone-xr/main__bmngiblug0mq_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+footer {
+    width: 75%;
+    margin: auto;
+}
+
+footer>* {
+    padding: 10px;
+    margin: 5px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav li {
+    list-style: none;
+}
+
+.rights {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rights li {
+    list-style: none;
+    display: inline;
+}
+
+#logoApple {
+    height: 30px;
 }
