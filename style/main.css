@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 body {
@@ -55,12 +56,14 @@ header nav a:hover {
     transition-duration: 0.5s;
 }
 
-article a {
-    color: #0070c9;
+article>a {
     text-decoration: none;
 }
 
-article>a:hover {}
+.articleLink a {
+    color: #0070c9;
+    text-decoration: none;
+}
 
 footer {
     font-size: 12px;
@@ -74,4 +77,12 @@ article {
     font-size: 21px;
     width: 75%;
     margin: auto;
+    background-color: rgb(250 250 250);
+}
+
+.smallArticles {
+    display: grid;
+    grid-template-areas: "articleS articleS" "articleS articleS";
+    /* grid-template-columns: 1 / 1;
+ grid-template-rows: 1 /1;                       */
 }
