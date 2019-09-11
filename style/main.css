@@ -128,3 +128,11 @@ footer nav li {
 #logoApple {
     height: 30px;
 }
+
+.game {
+    width: 75%;
+}
+
+#life {
+    display: inline;
+}
